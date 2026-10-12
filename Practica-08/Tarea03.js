@@ -40,6 +40,6 @@ rl.question("Ingrese una frase: ", frase => {
   const fraseInvertida = invertirCadena(frase);
   const frasePalindromo = palindromo(frase, fraseInvertida);
 
-  console.log(`\nSu frase es: ${frase}.\n -Frace invertida: ${fraseInvertida}.\n -Es palindromo: ${frasePalindromo}`);
+  console.log(`\nSu frase es: ${frase}.\n -Cantidad de vocales: ${cantidadVocales}\n-Frace invertida: ${fraseInvertida}.\n -Es palindromo: ${frasePalindromo}`);
   rl.close();
 });
